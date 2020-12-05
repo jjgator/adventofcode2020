@@ -1,5 +1,7 @@
 import teststring from './input';
 
+const expenseReport = teststring.split('\n');
+
 for (let i = 0; i < expenseReport.length; i++) {
   for (let j = i + 1; j < expenseReport.length; j++) {
     for (let k = j + 1; k < expenseReport.length; k++) {
