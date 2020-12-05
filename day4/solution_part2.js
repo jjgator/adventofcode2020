@@ -1,4 +1,4 @@
-import teststring from './input_part2';
+import teststring from './input';
 
 // passport data is separated by two newlines
 const passports = teststring.split('\n\n');
