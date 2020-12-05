@@ -77,4 +77,4 @@ const numberOfValidPassports = passports.reduce((number, pp) => {
   return number;
 }, 0);
 
-console.log(numberOfValidPassports);
+console.log(numberOfValidPassports); // 133

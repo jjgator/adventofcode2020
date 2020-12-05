@@ -29,4 +29,4 @@ const seatIDs = boardingPasses.map((bp) => {
   return findSeatId(bp);
 });
 
-console.log(Math.max(...seatIDs));
+console.log(Math.max(...seatIDs)); // 832

@@ -39,4 +39,4 @@ const mySeat = (sortedSeatIDs) => {
   return seatNextToMine + 1;
 };
 
-console.log(mySeat(sortedSeatIDs));
+console.log(mySeat(sortedSeatIDs)); // 517
